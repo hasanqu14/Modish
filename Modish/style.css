@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+  gap: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 6px 12px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.tab a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+.tab.active {
+  background: #ffe;
+  font-weight: bold;
+}
+
+.designers {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  background: #fff7f0;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.stars {
+  margin: 4px 0;
+  color: #000;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.stat {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.phones {
+  margin-top: 8px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 12px;
+  font-size: 0.75rem;
+}
+
+.card-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
